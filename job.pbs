@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l nodes=16,walltime=00:1:00
+#PBS -m abe
+#PBS -M jskristo@asu.edu
+module load intel/12.0
+
+cd $PBS_O_WORKDIR
+
+./hello
+
